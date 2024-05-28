@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>booke store </title>
+    <meta name="description" content="this Is Our Book Store" />
+    <style>
+        body{
+            background-color: rgb(247, 253, 250)
+        }
+    </style>
+</head>
+
+<body>
+    <!-- h1   h6
+            b => Bold
+            strong => Bold => Important text
+            i => Italic 
+            em => Emphasized
+            mark => Mark Text Or Hifgighted Text
+            u => Underlind 
+            small => Small Text
+            ins => Inserted Text
+            sub => Subscript
+            sup => Superscript
+        -->
+    <h1>Book Store</h1>
+    <p>This Is My <b>Book Store</b>, Welcome</p>
+    <p>This Is My <i>Book Store</i>, Welcome</p>
+    <p>This Is My <strong>Book Store</strong>, Welcome</p>
+    <p>This Is My <em>Book Store</em>, Welcome</p>
+    <p>This Is My Book Store,<mark>Welcome</mark> </p>
+    <p>This Is My Book Store,<small>Welcome</small> </p>
+    <p>This Is My <del>Book Store</del>, Welcome</p>
+    <p>We Have A Big Sale</p>
+    <p><del>$100</del>$80</p>
+    <p>This Is My <ins>Book Store</ins>, Welcome</p>
+    <p>H<sub>2</sub>O</p>
+    <p>2<sup>2</sup></p>
+    <a href="http://google.com" target="_blank" title="Go to google">google</a>
+    <a href="http://Facebook.com" title="Go to facebook">facebook</a>
+    <img src="C:\Users\Elias\Pictures\Screenshots\Screenshot 2024-05-01 195602.png" alt="" width="100px" height="100px">
+    <img src="img/home/Screenshot 2024-04-04 182130.png" alt="" width="100px" height="100px">
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JS
+            <ul>
+                <li>Angular</li>
+                <li>Reactjs</li>
+                <li>Vuejs</li>
+
+            </ul>
+    </ul>
+    <ol>
+        <li>Name</li>
+        <li>Address</li>
+        <li>Id</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Language Of The Web</dd>
+        <dd>The First Lan</dd>
+        <dt>CSS</dt>
+        <dd>Language Of The Visuals</dd>
+    </dl>
+    <table>
+        <caption>
+            Class B (ICT)
+        </caption>
+        <thead>
+            <tr>
+                <td>First</td>
+                <td>Last</td>
+                <td>Marks</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Osama</td>
+                <td>Mohamed</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Ahmad</td>
+                <td>Adil</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Adam</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>230</td>
+            </tr>
+        </tbody>
+    </table>
+    <audio controls>
+        <source src="audio file/WhatsApp Audio 2024-05-08 at 17.59.13_c3120116.mp3" type="audio/mpeg">
+        Your Browser Dose Not Support Audio Tags
+    </audio>
+    <video controls width="300" height="150">
+        <source src="video file/8e2c691003f797a8ba8beb2529dc31dd.mp4" type="video/mp4">
+        Your Browser Dose Not Support Tags
+    </video>
+    <form>
+        <div>
+            <label>Usernsme</label>
+            <input type="text" required placeholder="username" name="user">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" 
+            required placeholder="write email" 
+            value="eliavg@.as" 
+            name="mail">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" required placeholder="write a comlex password" name="pass">
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" 
+            name="range"
+            min="0" max="100" 
+            step="20" value="0">
+        </div>
+        <br>
+        <div>
+            <label>Number</label>
+            <input type="number" name="range" min="0" max="100" step="20">
+        </div>
+        <br>
+        <div>
+            <input id="win" type="radio" name="os" value="Windows">
+            <label for="win">Windows</label>
+        </div>
+        <br>
+        <div>
+            <input id="line" type="radio" name="os" value="Linux">
+            <label for="line">linux</label>
+        </div>
+        <br>
+        <div>
+            <input id="mac" type="radio" name="os" value="Mac">
+            <label for="mac">Mac</label>
+        </div>
+        <br>
+        <div>
+            <input id="lin1" type="checkbox" name="os" value="Linux">
+            <label for="lin1">Linux</label>
+        </div>
+        <br>
+        <div>
+            <input id="mac1" type="checkbox" name="os" value="Mac">
+            <label for="mac1">Mac</label>
+        </div>
+        <br>
+        <div>
+            <input id="win1" type="checkbox" name="os" value="Windows">
+            <label for="win1">Windows</label>
+        </div>
+        <br>
+        <label for="book">Choose Book</label>
+        <select name="book" id="book" multiple>
+            <optgroup label="Romantic Book">
+                <option value="1">Book 1</option>
+                <option value="2" selected>Book 2</option>
+                <option value="3">Book 3</option>
+            </optgroup>
+            <optgroup label="Police Book">
+                <option value="4">Book 4</option>
+                <option value="5">Book 5</option>
+                <option value="6">Book 6</option>
+            </optgroup>
+        </select>
+        <br>
+        <div>
+            <label>File</label>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <label>Date</label>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <label>Time</label>
+            <input type="time">
+        </div>
+        <br>
+        <div>
+            <label>Search</label>
+            <input type="search">
+        </div>
+        <br>
+        <div>
+            <label>Url</label>
+            <input type="url">
+        </div>
+        <br>
+        <div>
+            <label >Month</label>
+            <input type="month">
+        </div>
+        <br>
+        <input type="submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
